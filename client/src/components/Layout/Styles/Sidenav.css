@@ -1,0 +1,74 @@
+.offcanvas {
+  width: 230px !important;
+}
+
+.offcanvas-header {
+  padding: 12px !important;
+}
+
+.offcanvas-title {
+  font-weight: 550 !important;
+  margin: auto;
+}
+
+.offcanvas {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 5;
+  background-color: #0dcaf0 !important;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.sidenav .bottom-menu {
+  margin-top: 95%;
+}
+
+.sidenav span {
+  font-weight: 550;
+  color: #fff;
+  text-align: center;
+  padding: 5px 50px;
+}
+
+.sidenav .top-menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #0c0c0c;
+}
+
+.sidenav .bottom-menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #0c0c0c;
+}
+
+.sidenav button {
+  font-size: 14px;
+  color: #0c0a0a;
+  display: block;
+  border: none;
+  padding: 8px 50px;
+  width: 200px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.sidenav button {
+  border-radius: 5px !important;
+}
+
+.sidenav .btn:focus-within {
+  background-color: #fff;
+}
+
+.sidenav .btn:hover {
+  background-color: #fff;
+}
+.sidenav .userMenu {
+  height: 5rem;
+}

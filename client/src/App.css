@@ -1,0 +1,230 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media only screen and (max-width: 1115px) {
+  .home-container {
+    margin: 7% 0;
+  }
+
+  .main-menu {
+    padding: 10px !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 986px) {
+  .home-container {
+    margin: 9% 0;
+  }
+
+  .main-menu {
+    margin-left: 0% !important;
+    padding: 10px !important;
+    width: auto !important;
+  }
+
+  .card-container .card-body .card-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .home-container {
+    margin: 10% 0;
+  }
+
+  .main-menu {
+    margin-left: 0% !important;
+    padding: 15px !important;
+    width: auto !important;
+  }
+
+  .card-container .card-body .card-title {
+    font-size: 18px;
+  }
+
+  .table thead th {
+    font-size: 13px !important;
+  }
+
+  .pagination .btn {
+    width: 80px !important;
+    font-size: 13px !important;
+  }
+
+  .page-header .btn {
+    margin-right: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home-container {
+    margin: 17% 0;
+  }
+
+  .main-menu {
+    margin-left: 0% !important;
+    padding: 15px !important;
+    width: auto !important;
+  }
+
+  .card-container .card-body .card-title {
+    font-size: 18px;
+  }
+  .table thead th {
+    font-size: 13px !important;
+  }
+  .page-header .btn {
+    margin-right: 100% !important;
+    font-size: 13px !important;
+    height: 30px !important;
+  }
+
+  .pagination .btn {
+    width: 70px !important;
+    font-size: 12px !important;
+  }
+}
+
+.menu-icon {
+  display: none;
+}
+
+.home-container {
+  margin-top: 6%;
+}
+
+.home-sub-container h3 {
+  margin-top: 3%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.main-menu {
+  width: 80%;
+  margin-left: 18.5%;
+}
+
+.page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15%;
+}
+
+.centerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-div {
+  position: fixed;
+  top: 13%;
+  right: 2%;
+  z-index: 1;
+}
+
+.btn-div .btn {
+  width: 100px;
+}
+
+input,
+select,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #c6c8c9 !important;
+}
+
+.btn {
+  border-radius: 7px !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.alert-danger {
+  border: none !important;
+  padding: 12px 20px !important;
+  border-radius: 5px !important;
+}
+
+.table {
+  border: 1px solid #c6c8c9 !important;
+  border-radius: 5px;
+}
+
+.table td {
+  font-size: 14px;
+  border-bottom: 1px solid #c6c8c9 !important;
+  color: #141414;
+}
+.table td small {
+  font-size: 12px;
+}
+
+.table td:last-child {
+  border-bottom: none;
+}
+
+.table thead th {
+  font-size: 15px;
+  line-height: 25px;
+  color: #343636;
+  border-bottom: 1px solid #c6c8c9 !important;
+  border-top: 1px solid #c6c8c9 !important;
+  vertical-align: middle !important;
+}
+
+.table thead th label {
+  display: inline !important;
+  text-transform: uppercase;
+}
+
+.scroll-to-top {
+  position: fixed;
+  width: 100%;
+  left: 90%;
+  bottom: 10%;
+  height: 20px;
+  font-size: 2.5rem;
+  z-index: 1;
+  cursor: pointer;
+  color: rgb(93, 99, 93);
+}
+
+input.search {
+  padding: 6px 4px 6px 40px;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 13px center;
+  border-radius: 7px !important;
+}
+
+.page-header .btn {
+  height: 33px;
+  width: 100px;
+  margin-left: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination .btn {
+  padding: 5px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: 520;
+}

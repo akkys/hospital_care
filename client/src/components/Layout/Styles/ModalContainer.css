@@ -1,0 +1,98 @@
+.modal-content {
+  border-radius: 5px !important;
+  border: none !important;
+  box-shadow: 1px 1px 15px #141414;
+}
+
+.modal-body {
+  padding: 1rem 1.7rem !important;
+}
+
+.modal-container label {
+  font-size: 14px;
+  color: #494949;
+}
+
+.modal-container input {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.modal-container textarea {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.modal-container .input-group-text {
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  background-color: white !important;
+}
+
+.modal-container .form-select {
+  padding: 4px 2px;
+  padding-right: 4%;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.modal-container .form-floating > .form-select {
+  padding-left: 0.7rem;
+}
+
+.modal-container .btn {
+  width: 100px;
+}
+
+.appt-modal label {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 5px;
+  width: 80px;
+}
+
+.appt-modal span {
+  font-size: 14px;
+  margin-left: 1%;
+  color: #141414;
+  /* font-weight: 520; */
+}
+
+.patient-modal label {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 5px;
+  width: 120px;
+}
+
+.patient-modal span {
+  font-size: 14px;
+  margin-left: 1%;
+  color: #141414;
+}
+
+.form-control.is-invalid {
+  border-color: #f0a0a9 !important;
+}
+
+.form-control {
+  border-radius: 4px !important;
+}
+
+.form-check-input {
+  font-size: 16px !important;
+  /* margin-left: px !important; */
+}
+
+/* .form-card-list {
+  height: 3.5rem;
+} */
+
+#datalistOptions {
+  display: none;
+}
+
+.form-select.is-invalid:not([multiple]):not([size]) {
+  background-position: right 2rem center, center right 8px !important;
+}

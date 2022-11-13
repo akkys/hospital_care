@@ -1,0 +1,141 @@
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .doc-card-container label {
+    width: 100px;
+  }
+
+  .doc-card-container .doc-card-img {
+    margin: 0 33%;
+  }
+
+  .card-flex {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+
+  .card-flex img {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .doc-card-container label {
+    width: 100px;
+  }
+  .doc-card-container .doc-card-img {
+    margin: 0 30%;
+  }
+}
+
+.card-img-top {
+  padding: 0% 15%;
+  height: 170px;
+  width: 170px;
+}
+
+.card-img {
+  margin: 5% 0;
+  height: 300px;
+}
+
+.card-container .card-body {
+  padding: 0.7rem;
+}
+
+.card-container .card-body .card-text {
+  font-size: 15px;
+}
+
+.card-container h4 {
+  font-weight: 500;
+}
+
+.card-container h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.card-container h6 {
+  font-weight: 500;
+}
+
+.card-container .card-body .card-text h6 label {
+  width: 50px;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+
+.card-container .card-body .card-text .card-details label {
+  width: 100px;
+  color: rgb(100, 100, 100);
+}
+
+.card-container .card-body .card-text .card-details span {
+  font-size: 15px;
+}
+
+.card-container .card-body .card-text .card-details button {
+  /* float: right; */
+  margin-top: 5%;
+  width: 100px;
+}
+
+.card-container p {
+  font-size: 16px;
+  color: rgb(95, 94, 94);
+  font-weight: 500;
+}
+
+.card-footer {
+  padding: 15px 10px !important;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardFooter button {
+  width: 80px;
+  padding-left: 0 !important;
+}
+
+.cardFooterBtn {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.doc-card-container span {
+  color: rgb(44, 44, 44);
+  font-size: 14px;
+}
+
+.doc-card-container label {
+  margin-right: 5px;
+  color: rgb(100, 100, 100);
+}
+
+.doc-card-container h6 {
+  line-height: 20px;
+}
+
+.doc-card-container .card-body {
+  padding: 2% 3%;
+}
+
+.doc-card-img {
+  margin: 0 10%;
+  height: 120px;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-flex img {
+  width: 100%;
+}
